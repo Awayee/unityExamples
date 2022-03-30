@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 控制相机移动
 public class CameraFly : MonoBehaviour
 {
     // Start is called before the first frame update
