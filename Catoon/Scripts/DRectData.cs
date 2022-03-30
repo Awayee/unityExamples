@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 线段，去重用
 struct DLine{
     float x1, y1, z1;
     float x2, y2, z2;
@@ -17,6 +18,7 @@ struct DLine{
     }
 }
 
+// 邻接四边形
 [System.Serializable]
 public struct DRect{
     int p1, p2, p3, p4;
